@@ -13,6 +13,7 @@ RUN apt-get update && \
         genisoimage sudo socat xterm gawk cpio texinfo \
         gettext vim diffstat chrpath rsync \
         python-mako libusb-1.0-0-dev exuberant-ctags \
+        screen \
         pngcrush schedtool xsltproc zip zlib1g-dev libswitch-perl && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
